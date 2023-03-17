@@ -25,3 +25,5 @@ window.addEventListener('DOMContentLoaded', () => {
     }, 2300);
   });
 });
+
+window.addEventListener('click');

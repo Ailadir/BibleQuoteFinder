@@ -133,3 +133,12 @@ body {
   justify-content: center;
   align-items: center;
 } */
+
+@media only screen and (max-width: 960px) {
+  .question-input {
+    width: 90%;
+  }
+  .question-input::placeholder {
+    font-size: 15px;
+  }
+}
