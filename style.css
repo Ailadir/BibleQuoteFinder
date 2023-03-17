@@ -55,3 +55,81 @@ h6 {
   overflow-wrap: break-word;
 }
 /* CSS RESET */
+
+* {
+  font-family: 'Cardo', serif;
+}
+
+/* html {
+  display: flex;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  transition: 2s;
+}
+
+.logo-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  position: relative;
+  display: inline-flex;
+  bottom: -20px;
+  opacity: 0;
+}
+
+.logo.active {
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.5s;
+}
+
+.logo.fade {
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+.question-box {
+  width: 100%;
+  text-align: center;
+}
+.question-input::placeholder {
+  text-align: center;
+}
+.heading {
+  font-size: x-large;
+  text-align: center;
+  padding: 5px;
+}
+
+.question-input {
+  width: 30%;
+}
+.buttons {
+  padding: 10px;
+}
+
+/* main {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+} */

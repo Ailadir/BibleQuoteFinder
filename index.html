@@ -5,19 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet" />
+    <title>Bible Quote Finder</title>
   </head>
+  <div class="intro">
+    <h1 class="logo-header">
+      <span class="logo">Bible</span>
+      <span class="logo">quote</span>
+      <span class="logo">finder</span>
+    </h1>
+  </div>
 
-  <body>
-    <header>
-      <h1>Cool website</h1>
-    </header>
-    <main>
-      <h2>Page title</h2>
+  <body class="content-box">
+    <main class="question-box">
+      <div class="heading">Find your quote</div>
+      <input
+        type="text"
+        minlength="3"
+        placeholder="Type your words for search, divided by comma."
+        class="question-input" />
+      <div class="buttons"><button>Search</button></div>
     </main>
+    <div class="answers"></div>
     <footer>
-      <p>&copy;</p>
+      <!-- <p>&copy;</p> -->
     </footer>
-    <script src=""></script>
+    <script src="script/script.js"></script>
   </body>
 </html>
