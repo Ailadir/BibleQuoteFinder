@@ -184,4 +184,8 @@ body {
   .question-input::placeholder {
     font-size: 15px;
   }
-}
+  .answer-box {
+    max-width: 80%;
+    padding: 0px;
+    font-size: 15px;
+  }
